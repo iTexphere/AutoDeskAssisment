@@ -1,9 +1,7 @@
 import React from 'react'
 import { Card, ListGroupItem, ListGroup } from 'react-bootstrap';
-import {
-    Link
-  } from "react-router-dom";
-  import { v4 as uuidv4 } from 'uuid';
+import {Link} from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
 
 const ApiCard = (props) => {
     return (

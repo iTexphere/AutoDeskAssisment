@@ -27,6 +27,26 @@
         {"link": "/en/api/dummy1/intro", "label": "Intro"},
         {"link": "/en/api/dummy1/guide", "label": "Developers Guide"},
         {"link": "/en/api/dummy1/reference", "label": "API Reference"}
+    ]},
+    {"id": 3, "icon": "fa fa-tree", "title": "Data Management", "description": "Access data across BIM 360 team, Fusion Team, BIM 360 Docs, and the Object Storage Service to build apps to display and extend your data in ways that add value to your users", "links" : [
+        {"link": "/en/api/dummy1/intro", "label": "Intro"},
+        {"link": "/en/api/dummy1/guide", "label": "Developers Guide"},
+        {"link": "/en/api/dummy1/reference", "label": "API Reference"}
+    ]},
+    {"id": 4, "icon": "fa fa-cloud", "title": "Design Automation", "description": "Automate repetitive tasks by leveraging on the scale of the Forge Platform and running scripts on your design files in the cloude", "links" : [
+        {"link": "/en/api/dummy1/intro", "label": "Intro"},
+        {"link": "/en/api/dummy1/guide", "label": "Developers Guide"},
+        {"link": "/en/api/dummy1/reference", "label": "API Reference"}
+    ]},
+    {"id": 5, "icon": "fa fa-500px", "title": "Model Derivative", "description": "Define outputs viewable by the FOrge viewer from more than 60 CAD file formats and extract meta data about the model as well as the indivual objects within the model", "links" : [
+        {"link": "/en/api/dummy1/intro", "label": "Intro"},
+        {"link": "/en/api/dummy1/guide", "label": "Developers Guide"},
+        {"link": "/en/api/dummy1/reference", "label": "API Reference"}
+    ]},
+    {"id": 6, "icon": "fa fa-tree", "title": "Reality Capture", "description": "Convert digital images into high resoulutions textual meshes dense point cloude and " , "links" : [
+        {"link": "/en/api/dummy1/intro", "label": "Intro"},
+        {"link": "/en/api/dummy1/guide", "label": "Developers Guide"},
+        {"link": "/en/api/dummy1/reference", "label": "API Reference"}
     ]}
 
 ]
