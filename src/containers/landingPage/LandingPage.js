@@ -15,10 +15,11 @@ const LandingPage = () => {
     let arr = url.split("/");
     let hostUrl = arr[0] + "//" + arr[2]
     useEffect(() => {
+        setIsLoading(true)
         axios.get(`${hostUrl}/data.json`)
         .then((response) => {
             if(response.status === 200) {
-                setTimeout(function(){ setIsLoading(true); }, 1000);
+                setTimeout(()=> { setIsLoading(false); }, 1000);
                 
                 setApiDetailsArray(response.data)
 
@@ -54,7 +55,7 @@ const LandingPage = () => {
             </Col>
       </Row>
 
-      {isLoading ? 
+      {!isLoading ? 
       (
       <Row>
           {
